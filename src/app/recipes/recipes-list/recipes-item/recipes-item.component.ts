@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+// import { ConsoleReporter } from 'jasmine';
 import { Recipe } from '../../recipe.model';
 
 @Component({
@@ -17,6 +18,9 @@ export class RecipesItemComponent implements OnInit {
 
   onSelected(){
     this.recipeSelected.emit();
+
+
+    // console.log(this.recipeSelected)
   }
 
 }

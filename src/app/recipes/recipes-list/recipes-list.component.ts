@@ -11,8 +11,8 @@ export class RecipesListComponent implements OnInit {
   @Output() recipeWasSelected = new EventEmitter<Recipe>();
 
   recipes: Recipe[] = [
-    new Recipe("Name of the recipe", "Description of the Recipe", 'https://img.delicious.com.au/fVd1u6k7/w1200/del/2022/02/chicken-chickpea-curry-163942-1.jpg'),
-    new Recipe("Name of the recipe", "Description of the Recipe", 'https://img.delicious.com.au/fVd1u6k7/w1200/del/2022/02/chicken-chickpea-curry-163942-1.jpg')
+    new Recipe("Test Recipe", "Description of the Recipe", 'https://img.delicious.com.au/fVd1u6k7/w1200/del/2022/02/chicken-chickpea-curry-163942-1.jpg'),
+    new Recipe("Another Test Recipe", "Description of the Recipe", 'https://img.delicious.com.au/fVd1u6k7/w1200/del/2022/02/chicken-chickpea-curry-163942-1.jpg')
     
   ];
 
