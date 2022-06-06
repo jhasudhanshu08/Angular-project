@@ -1,7 +1,7 @@
 export class Recipe {
-    public name: string;
-    public description: string;
-    public imagePath: string;
+    public name: string| undefined;
+    public description: string| undefined;
+    public imagePath: string| undefined;
 
     constructor(name: string, desc: string, imagePath: string) {
         this.name = name;
